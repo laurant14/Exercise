@@ -14,6 +14,14 @@ export const Home: React.FC = ({ navigation }) => {
           navigation.navigate('Workout');
         }} 
         />
+        <Button title = "Go to Saved" onPress={() => {
+          navigation.navigate('Saved');
+        }} 
+        />
+        <Button title = "Go to Settings" onPress={() => {
+          navigation.navigate('Settings');
+        }} 
+        />
     </Center>
     )
   }
